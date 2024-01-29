@@ -40,7 +40,7 @@ const HomeApresentacao: React.FC = () => {
 				>
 					<figure className="w-full h-auto aspect-video bg-gray-300 animate-pulse rounded-lg" />
 					<div className="card-body">
-						<h2 className="card-title">Mokey numero {i + 1}!</h2>
+						<h2 className="card-title">Caça numero {i + 1}!</h2>
 						<p>Esse é um dos caças</p>
 						<div className="card-actions justify-end">
 							<button

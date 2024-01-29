@@ -15,7 +15,7 @@ const HomeIntro: React.FC = () => {
 								<pre key={"1"} data-prefix={"$"}>
 									<code>
 										<TextTypeAnimate
-											content="sudo exec YouAreGay()"
+											content="sudo exec VerifyCaça()"
 											delay={0.05}
 										/>
 									</code>
@@ -26,7 +26,7 @@ const HomeIntro: React.FC = () => {
 						{
 							content: (
 								<pre key={"2"} data-prefix={"$"}>
-									<code className="text-green-600">true</code>
+									<code className="text-green-600">true & continue</code>
 								</pre>
 							),
 							delay: 1.8,
