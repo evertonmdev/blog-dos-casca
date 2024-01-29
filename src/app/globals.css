@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply p-0 m-0 box-border;
+  }
+
+
+  *::-webkit-scrollbar {
+    width: 0.15rem;
+ 
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: #6649b8;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background: #5a3ea0;
+  }
+
+  *::-webkit-scrollbar-thumb:active {
+    background: #4c2889;
+  }
+
+  *::-webkit-scrollbar-thumb:vertical {
+    border-radius: 0.25rem;
+  }
+
+  *::-webkit-scrollbar-thumb:horizontal {
+    border-radius: 0.25rem;
+  }
+
+  *::-webkit-scrollbar-corner {
+    background: #1e1e24;
+  }
+
+
+}
